@@ -36,7 +36,6 @@ int main(){
         }
         sort(arr,arr+n);
         long int l1 = sizeof(arr)/sizeof(arr[0]);
-        cout<<"l1:"<<l1<<endl;
         l1 = remove_duplicates(arr, l1);
         if (arr[0] == 0){
         l1 -- ;
